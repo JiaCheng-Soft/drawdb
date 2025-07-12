@@ -235,7 +235,8 @@ export default function Table(props) {
                       <p className="font-bold me-4">{e.name}</p>
                       <p
                         className={
-                          "ms-4 font-mono " + dbToTypes[database][e.type].color
+                          "ms-4 font-mono text-xs " +
+                          dbToTypes[database][e.type].color
                         }
                       >
                         {e.type +
